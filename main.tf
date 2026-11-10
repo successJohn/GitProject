@@ -15,7 +15,7 @@ provider "azurerm" {
 # Create a resource group
 resource "azurerm_resource_group" "example" {
   name     = "dev-resources"
-  location = "West Europe"
+  location = "uksouth"
 }
 
 # Create a virtual network within the resource group
