@@ -18,6 +18,12 @@ resource "azurerm_resource_group" "example" {
   location = "uksouth"
 }
 
+# Create a resource group
+resource "azurerm_resource_group" "example" {
+  name     = "prod-resources"
+  location = "uksouth"
+}
+
 # Create a virtual network within the resource group
 resource "azurerm_virtual_network" "example" {
   name                = "cloudskool"
